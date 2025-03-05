@@ -15,13 +15,13 @@ const Navbar_left = () => {
 const Navbar_right = () => {
     return (
         <ul className="flex space-x-6 text-lg font-medium">
-            <li> <Link to="/" className="hover:text-cyan-400"> Home </Link> </li>
-            <li> <Link to="/about" className="hover:text-cyan-400"> About </Link> </li>
-            <li> <Link to="/projects" className="hover:text-cyan-400"> Projects </Link> </li>
-            <li> <Link to="/experiences" className="hover:text-cyan-400"> Experiences </Link> </li>
-            <li> <Link to="/blogs" className="hover:text-cyan-400"> Blogs </Link> </li>
-            <li> <Link to="/resume" className="hover:text-cyan-400"> Resume </Link> </li>
-            <li> <Link to="/contact" className="hover:text-cyan-400"> Contact </Link> </li>
+            <li> <Link to="/" className="hover:text-cyan-400 focus:text-cyan-400"> Home </Link> </li>
+            <li> <Link to="/about" className="hover:text-cyan-400 focus:text-cyan-400"> About </Link> </li>
+            <li> <Link to="/projects" className="hover:text-cyan-400 focus:text-cyan-400"> Projects </Link> </li>
+            <li> <Link to="/experiences" className="hover:text-cyan-400 focus:text-cyan-400"> Experiences </Link> </li>
+            <li> <Link to="/blogs" className="hover:text-cyan-400 focus:text-cyan-400"> Blogs </Link> </li>
+            <li> <Link to="/resume" className="hover:text-cyan-400 focus:text-cyan-400"> Resume </Link> </li>
+            <li> <Link to="/contact" className="hover:text-cyan-400 focus:text-cyan-400"> Contact </Link> </li>
         </ul>
     );
 };
