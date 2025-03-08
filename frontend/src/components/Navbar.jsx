@@ -4,8 +4,8 @@ const Navbar_left = () => {
     return (
         <div className="flex items-center">
             <a href="#">
-            <div className="flex items-center justify-center h-12 w-12 bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-3xl font-extrabold rounded-lg shadow-lg">
-                A
+            <div className="flex items-center justify-center h-12 w-12 bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-2xl font-extrabold rounded-full shadow-lg">
+                AP
             </div>
             </a>
         </div>
