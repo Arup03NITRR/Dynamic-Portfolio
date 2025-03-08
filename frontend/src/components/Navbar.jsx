@@ -28,7 +28,7 @@ const Navbar_right = () => {
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
+        <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md sticky top-0 z-100">
             <Navbar_left />
             <Navbar_right />
         </nav>
